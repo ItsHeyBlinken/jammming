@@ -1,4 +1,4 @@
-const clientId = 'a27c9c83f31246d38d0acee7bb05cda9'; // Replace with your Client ID
+const clientId = process.env.REACT_APP_CLIENT_ID;
 const redirectUri = 'http://172.25.176.1:3000'; // Use your network IP address
 const scopes = [
     'playlist-modify-public',
